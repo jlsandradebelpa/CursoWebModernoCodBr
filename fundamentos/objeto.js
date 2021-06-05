@@ -12,6 +12,7 @@ console.log('Object Prod1.preco -> '+prod1.preco)
 console.log('Object Prod1.marca -> '+prod1.marca)
 console.log('Object Prod1.ano -> '+prod1.ano)
 console.log('Object Prod1.IMEI1 -> '+prod1.IMEI1)
+console.log('Object Prod1.Desconto Leal -> '+prod1["Desconto Legal"])
 
 const prod2 = {
     nome: 'Camisa Polo',

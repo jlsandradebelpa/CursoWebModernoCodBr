@@ -24,3 +24,4 @@ function seForVerdadeEuFalo(valor) {
   seForVerdadeEuFalo('?')
   seForVerdadeEuFalo([])
   seForVerdadeEuFalo([1,2])
+  seForVerdadeEuFalo([])

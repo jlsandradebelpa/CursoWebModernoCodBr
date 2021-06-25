@@ -1,4 +1,11 @@
 // 1a. forma - usando a notação literal
+/* 
+Arquivo: criandoObjetos.js
+data: 25/06/2021 - 20:53
+Autor: Jorge Andrade
+Seção: 6 Javascript: Objeto
+Aula: 97 -  Estrategias de criação de Object
+ */
 const obj1 = {}
 console.log('1a forma literal (const obj1 = {}): '+obj1)
 

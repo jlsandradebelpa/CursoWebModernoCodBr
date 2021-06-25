@@ -1,4 +1,4 @@
-// coleção dinãmica de pares chave/valor
+// coleÃ§Ã£o dinÃ£mica de pares chave/valor
 const produto = new Object
 produto.nome = 'Cadeira'
 produto['marca do produto'] = 'Generica'
@@ -27,7 +27,7 @@ const carro = {
         }
     },
     condutores: [{
-        nome: 'Júnior',
+        nome: 'JÃºnior',
         idade: 19
     },{
         nome: 'Ana',

@@ -1,6 +1,6 @@
 /* 
 Arquivo: heranca2.js
-data : 25/06/2021 - 22:30
+data : 26/06/2021 - 17:40
 Autor: Jorge Andrade
 Seção: 6 Javascript: Objeto
 Aula : 103. Herança #02

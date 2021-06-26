@@ -2,12 +2,12 @@
 Arquivo: heranca2.js
 data : 26/06/2021 - 17:40
 Autor: Jorge Andrade
-Seção: 6 Javascript: Objeto
-Aula : 103. Herança #02
+Secao: 6 Javascript: Objeto
+Aula : 103. Heranca #02
  */
 
 // Cadeia de prototipos (prototype chain)
-Object.prototype.attr0 = '0' // não faça isso em casa use Object.setPrototypeOf
+Object.prototype.attr0 = '0' // nï¿½o faï¿½a isso em casa use Object.setPrototypeOf
 const avo = { attr1: 'A' }
 const pai = { __proto__: avo, attr2: 'B' }
 const filho = { __proto__: pai, attr3: 'C' }

@@ -1,4 +1,11 @@
-// cole√ß√£o din√£mica de pares chave/valor
+/* 
+Arquivo: objetoRevisao.js
+data: 25/06/2021 - 20:53
+Autor: Jorge Andrade
+SeÁ„o: 6 Javascript: Objeto
+Aula: 96 - Revis„o sobre Objeto
+ */
+// coleÁ„o din√£mica de pares chave/valor
 const produto = new Object
 produto.nome = 'Cadeira'
 produto['marca do produto'] = 'Generica'
@@ -49,4 +56,4 @@ delete carro.proprietario.endereco
 console.log(carro)
 delete carro.calculaValorSeguro
 console.log(carro)
-console.log(carro.condutores.length)
+//console.log(carro.condutores.length)

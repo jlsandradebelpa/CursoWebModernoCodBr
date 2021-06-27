@@ -14,6 +14,7 @@ aprovados = ['Bia', 'Carlos', 'Ana']
 console.log(aprovados[0],aprovados[1],aprovados[2],aprovados[3])
 
 aprovados[3] = 'Paulo'
+aprovados[4] = 'Jorge'
 aprovados.push('Abia')
 console.log(aprovados.length)
 

@@ -3,7 +3,7 @@ Arquivo: heranca6.js
 data : 26/06/2021 - 21:02
 Autor: Jorge Andrade
 Secao: 6 Javascript: Objeto
-Aula : 106. Herança #06
+Aula : 107. Herança #06
  */
 function Aula(nome, videoID) {
     this.nome = nome

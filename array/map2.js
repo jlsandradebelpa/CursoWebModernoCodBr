@@ -19,3 +19,4 @@ const apenasPreco = produto => produto.preco
 const resultado = carrinho.map(paraObjeto).map(apenasPreco)
 console.log(resultado)
 console.log(resultado)
+console.log(resultado)

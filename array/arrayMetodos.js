@@ -2,8 +2,8 @@
 Arquivo: arrayMetodos.js
 data : 27/06/2021 - 15:46
 Autor: Jorge Andrade
-Secao: 7 Javascript: Array
-Aula : 113. Array: Metodos Importantes
+Secao: 7 Javascript: Array 
+Aula : 113. Array: Metodos Importantes 
 */
 const pilotos = ['Vettel','Alonso','Raikkonen','Massa']
 pilotos.pop() // massa quebou o carro

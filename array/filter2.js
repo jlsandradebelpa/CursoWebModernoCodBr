@@ -3,7 +3,7 @@ Arquivo: filter2.js
 data : 28/06/2021 - 17:48
 Autor: Jorge Andrade
 Secao: 7 Javascript: Array 
-Aula : 120. Filter #02
+Aula : 121. Filter #02
 */
 Array.prototype.filter2 = function(callback) {
     const newArray = []

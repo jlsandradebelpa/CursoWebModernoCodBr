@@ -17,6 +17,7 @@ console.log(pilotos)
 
 pilotos.unshift('Hamilton')
 console.log(pilotos)
+console.log(pilotos)
 
 // splice pode adicionar e remover elementos
 

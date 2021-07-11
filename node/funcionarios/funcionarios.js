@@ -14,7 +14,7 @@ const menorSalario = (func, funcAtual) => {
     return func.salario < funcAtual.salario ? func : funcAtual
 }
 
-axios.get(url).then(Response => {
+axios.get(url).then(response => {
     const funcionarios = response.data
     console.log(funcionarios)
 

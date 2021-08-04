@@ -1,3 +1,4 @@
+// ESNEXT - Aula 188 - Promise #02
 /*
 setTimeout(function() {
     console.log('Executando callback...')

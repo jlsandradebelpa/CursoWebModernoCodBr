@@ -1,3 +1,4 @@
+// ESNEXT - Aula 189 - Promise #03
 function gerarNumerosEntre(min, max) {
    if(min > max)  [max, min] = [min, max]
    return new Promise(resolve => {

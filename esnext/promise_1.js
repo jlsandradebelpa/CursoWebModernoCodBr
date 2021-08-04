@@ -1,3 +1,4 @@
+// Aula 187 - Promise #01
 const primeiroElemento = arrayOuString => arrayOuString[0]
 const letraMinuscula = letra => letra.toLowerCase()
 

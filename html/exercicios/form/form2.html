@@ -1,0 +1,25 @@
+<!-- // Seção: 13-HTML - Aula 223 - Formulário #02 -->
+<h1>Formulário</h1>
+
+<form action="http://localhost:3003/usuarios" method="POST">
+    <input type="text" name="name : ">
+    <input type="password" name="senha : ">
+    <textarea name="bio" id="" cols="30" rows="10"></textarea>
+    <div>
+        <input type="radio" name="tipo"> Admin
+        <input type="radio" name="tipo"> Regular
+    </div>
+    <button>incluir</button>
+</form>
+
+<style>
+    input,
+    textarea {
+        display: block;
+        margin-bottom:  10px;
+    }
+
+    input[type=radio] {
+        display: inline;
+    }
+</style>

@@ -1,7 +1,8 @@
 <!-- // Seção: 13-HTML - Aula 223 - Formulário #02 -->
 <h1>Formulário</h1>
 
-<form action="http://localhost:8081/usuarios" method="POST">
+<form method="POST">
+    <input type="idden" name="id">
     <input type="text" name="name : ">
     <input type="password" name="senha : ">
     <textarea name="bio" id="" cols="30" rows="10"></textarea>
@@ -30,12 +31,14 @@
         <option value="C">C</option>
     </select>
 
-    <button>incluir</button>
+    <button formaction="http://localhost:3003/usuarios">Incluir</button>
+    <button formaction="http://localhost:3003/usuarios/3">Alterar</button>
 </form>
 
 <style>
     input,
-    textarea {
+    textarea,
+    select {
         display: block;
         margin-bottom:  10px;
     }
@@ -45,5 +48,3 @@
         display: inline;
     }
 </style>
-
-<!--- Parei na aula as 06:18 -->

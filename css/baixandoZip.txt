@@ -1,3 +1,0 @@
-<!-- // Seção: 14-CSS - Aula 231 - Baixando o Arquivo ZIP -->
-Entrar no browser no endereço:
-http://files.cod3r.com.br/curso-web/css.ZIP

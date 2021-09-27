@@ -8,26 +8,23 @@ const colors = {
     header: '#d81b60',
     nav: '#64dd17',
     main: '#00acc1',
-    footer: '@304ffe',
+    footer: '#304ffe',
     form: '#9f6581',
     body: '#25b6da',
-    padrao: '#616161',
+    default: '#616161',
     get(tag) {
-        return this[tag] ? this[tag] : this.padrao
+        return this[tag] ? this[tag] : this.default;
     }
 }
 
-document.querySelectorAll('.tag').forEach(elemento => {
-    const tagName = elemento.tagName.toLowerCase()
+document.querySelectorAll('.tag').forEach(e => {
+    const tagName = e.tagName.toLowerCase();
+    e.style.borderColor = colors.get(tagName);
 
-    elemento.style.borderColor = colors.get(tagName)
-    
-    elemento.getElementsByClassName.borderColor = colors.get(tagName)
-
-    if (!elemento.classList.contains('nolabel')) {
-        const label = document.createElement('label')
-        label.style.backgroundColor = colors.get(tagName)
-        label.innerHTML = tagName
-        box.insertBefore(label, elemento.childrendes[0])
+    if(!e.classList.contains('nolabel')) {
+        const label = document.createElement('label');
+        label.style.backgroundColor = colors.get(tagName);
+        label.innerHTML = tagName;
+        e.insertBefore(label, e.childNodes[0]);
     }
-})
+});

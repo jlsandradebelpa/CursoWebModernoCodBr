@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\Users\\jorge\\Documents\\Cursos\\Cursos Udemy\\CodBr\\Youtube\\Flexbox"
 		}
 	],
 	"settings": {

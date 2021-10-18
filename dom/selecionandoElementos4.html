@@ -1,3 +1,4 @@
+<!--- Seção: 15-Integrando HTML, CSS e JS - Aula 279 - Selecionando Elementos #04 -->
 <!DOCTYPE html>
 <html>
 
@@ -22,7 +23,30 @@
         <p>Fim</p>
     </div>
     <script>
-        // ...
+        function log() {
+            console.log(this)
+        }
+
+        HTMLAllCollection.prototype.log = log
+        HTMLElement.prototype.log = log
+        NodeList.prototype.log = log
+        Node.prototype.log = log
+
+        const Lista = document.querySelector('div wl')
+        Lista.parentNode.log()
+        Lista.childNodes.log()
+
+        const primeiro = Lista.firstChild
+        primeiro.log()
+        primeiro.nextSibLing.log()
+
+        const ultimo = Lista.lastChild
+        ultimo.log()
+        ultimo.previousSibLing.log()
+
+        Lista.children.log()
+        Lista.previousElementChild.log()
+        Lista.nextElementChild.log()
     </script>
 </body>
 

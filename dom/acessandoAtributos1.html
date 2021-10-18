@@ -1,3 +1,4 @@
+<!--- Seção: 15-Integrando HTML, CSS e JS - Aula 280 - Acessando atributos #01 -->
 <!DOCTYPE html>
 <html>
 
@@ -15,7 +16,17 @@
         <img src='http://files.cod3r.com.br/curso-web/logo-estreita.png' alt='logo'>
     </div>
     <script>
-        // ...
+        const img = document.querySelector('log')
+        console.log('getAttribute', img.getAttribute('src'))
+        console.log('src', img.src)
+        console.log('["src")', img['src'])
+        console.log('alt', img.alt)
+
+        console.log('Elemento "img".........')
+        console.log('NodeType', img.nodeType)
+        console.log('NodeName', img.nodeName)
+
+        const src = img.getAttributeNode('src')
     </script>
 </body>
 

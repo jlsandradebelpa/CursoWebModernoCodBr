@@ -1,3 +1,4 @@
+<!--- Seção: 15-Integrando HTML, CSS e JS - Aula 281 - Acessando atributos #02 -->
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +18,24 @@
         </ul>
     </div>
     <script>
-        // ...
+        const Lista =document.querySelector('div ul[destino="esritorio"]')
+        console.log('Elemento "ul"...............')
+        console.log('childNodes', Lista.childNodes)
+        console.log('destino', Lista.destino)
+        console.log('getAttribute', Lista.getAttribute('destino'))
+        console.log('hasAttribute', Lista.hasAttribute('destino'))
+        Lista.setAttribute('destino', 'emoresa')
+        Lista.setAttribute('status', 'Aberto')
+        Lista.removeAttribute('destino')
+        console.log(Lista.dataset.urgencia)
+        Lista.dataset.urgencia = 4
+        console.log(Lista.getAttribute('data-urgencia'))
+
+        // cuidado
+        const label = document.querySelector('label')
+        console.log(label.for)
+        console.log(label.htmlfor)
+        console.log(label.getAttribute('for'))
     </script>
 </body>
 

@@ -1,3 +1,4 @@
+<!--- Seção: 15-Integrando HTML, CSS e JS - Aula 286 - Trabalhando c/eventos #01 -->
 <!DOCTYPE html>
 <html>
 
@@ -9,9 +10,23 @@
 
 <body class="conteudo exercicio">
     <div>
+        <!--- onclick="navegarEm5s(event)"--->
         <a href="https://google.com.br">Google</a>
     </div>
     <script>
-        // ...
+        function navegarEm5s(e) {
+            e.prevenDefault()
+            console.log('Saindo em 5s...')
+            setTimeout(() => {
+                const Link = e.target
+                window.location.href = link.href
+            },5000)
+        }
+
+        //const a = document.querySelector('a')
+        //a.onclick = navegarEm5s
+
+        const a = document.querySelector('[espera-um-pouco]')
+        a.onclick = navegarEm5s
     </script>
 </body>
